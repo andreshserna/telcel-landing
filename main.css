@@ -9,6 +9,7 @@ body{
     margin-right: 0;
 }
 
+
 @font-face {
     font-family: 'Hearts';
     src: url('./fonts/Heaters/Heaters.otf') format('opentype');
@@ -165,26 +166,6 @@ button{
 
 }
 
-@media (max-width: 768px) {
-  
-  .image-section{
-    display: block;
-    margin-left: 0;
-  }
-
-  .right-column{
-    width: 100%;
-    flex-basis: 100%;
-    margin-right: 0;
-  }
-
-  .image-section h2{
-    font-size: 5rem;
-  }
-
-
-}
-
 
 /* Para la tabla */
 
@@ -255,26 +236,10 @@ table td:nth-child(2) {
 table tr {
     border-bottom: 1px solid #047;
 }
-  
-
 /* Fin Tabla */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Inicio Footer */
 
 footer{
     background-color: #000000;
@@ -328,16 +293,37 @@ footer p {
     font-style: italic;
     font-family: 'DNIPro';
 }
+/*Fin Footer*/
+
+
 
 /* Media queries */
+
+@media (max-width: 768px) {
+  
+  .image-section{
+    display: block;
+    margin-left: 0;
+  }
+
+  .right-column{
+    width: 100%;
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+
+  .image-section h2{
+    font-size: 5rem;
+  }
+
+
+}
 
 @media (min-width: 1300px){
   .table-section{
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
   }
 }
-
-
 
 
 @media screen and (max-width: 768px) {
@@ -385,3 +371,4 @@ footer p {
     font-size: 0.6rem;
   }
 }
+
