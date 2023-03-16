@@ -302,6 +302,7 @@ footer p {
 
   .left-column img{
     height: 30rem;
+    margin-left: 0;
   }
   
   .image-section{
