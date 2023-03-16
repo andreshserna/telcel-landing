@@ -191,6 +191,12 @@ button{
     background-size: 100% 430px;
     background-repeat: no-repeat;    
 }
+
+.bg-right {
+  background-image: url(./images/section2/Fondo\ tabla2.png);
+  background-size: 100% 430px;
+  background-repeat: no-repeat;    
+}
   
 .table-container {
     width: 100%;
