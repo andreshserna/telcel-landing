@@ -9,7 +9,6 @@ body{
     margin-right: 0;
 }
 
-
 @font-face {
     font-family: 'Hearts';
     src: url('./fonts/Heaters/Heaters.otf') format('opentype');
@@ -300,6 +299,10 @@ footer p {
 /* Media queries */
 
 @media (max-width: 768px) {
+
+  .left-column img{
+    height: 30rem;
+  }
   
   .image-section{
     display: block;
@@ -308,7 +311,6 @@ footer p {
 
   .right-column{
     width: 100%;
-    flex-basis: 100%;
     margin-right: 0;
   }
 
