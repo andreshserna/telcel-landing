@@ -163,6 +163,22 @@ button{
 
 }
 
+@media (max-width: 768px) {
+  .left-column {
+    display: none;
+  }
+
+  .right-column{
+    width: 100%;
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+
+  .image-section
+
+
+}
+
 
 /* Para la tabla */
 
