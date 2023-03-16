@@ -175,7 +175,9 @@ button{
     margin-right: 0;
   }
 
-  .image-section
+  .image-section h2{
+    font-size: 5rem;
+  }
 
 
 }
