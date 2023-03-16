@@ -173,49 +173,60 @@ button{
 
 
 /* Para la tabla */
-.table-section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.table-container{
-    margin: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    position: relative;
-    width: 32rem;
-    /* flex: 1; */
-    margin: auto;    
-}
-
-
-
-.img-tabla{    
-    width: 100%;
+body {
+    min-height: 100vh;
+    background: linear-gradient(95deg, #023, #07a);
+    color: #fff;
+  }
+  
+  .table-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 4rem;
+    padding: 5rem 0;
+    max-width: 1240px;
     margin: auto;
-}
-
-
-.table-container td:first-child {
-    width: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    
-
-}
-
-td img{
-    width: 14rem;
-}
-
-td p{
-    /* position: absolute; */
-}
-
+  }
+  
+  .bg-left {
+    background-image: url(https://i.postimg.cc/hfZDShpL/Fondo-tabla.png);
+    background-size: 100% 430px;
+    background-repeat: no-repeat;
+  }
+  
+  .table-container {
+    width: 100%;
+    height: 430px;
+  }
+  
+  .table-container > header {
+    margin-bottom: 2rem;
+  }
+  
+  .table-container img {
+    width: 180px;
+    display: block;
+    margin: auto;
+  }
+  
+  table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+  }
+  
+  table td {
+    padding: 0.5rem;
+  }
+  
+  table td:nth-child(2) {
+    text-align: right;
+  }
+  
+  table tr {
+    border-bottom: 1px solid #047;
+  }
+  
 
 /* Fin Tabla */
 
