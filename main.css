@@ -1,4 +1,131 @@
+/* Conversiones de px a rem hechos teniendo en cuenta que el diseño era de 
+1600 × 2889, se dividieron las secciones y se convirtieron a REM */
 
+
+@font-face {
+    font-family: 'Hearts';
+    src: url('./fonts/Heaters/Heaters.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DNIProBlack';
+    src: url('./fonts/DINPro/DNI-black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DNIPro';
+    src: url('./fonts/DINPro/DINPro-1.ttf') format('opentype');
+    font-style: normal;
+}
+
+header div{
+    height: 2rem;
+    background-color: #000;
+}
+
+.image-section {
+    background-image: url('./images/section1/background_s1.png');
+    background-size: cover;
+    background-position: center;
+    height: 44rem; 
+    position: relative;
+    display: flex;
+    opacity: 1;    
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo transparente para la imagen */
+}
+
+.image-section h2{
+    font-family: 'Hearts';
+    color: #A80CAF;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    opacity: 1;
+    letter-spacing: 0px;
+    transform: matrix(1, -0.03, 0.03, 1, 0, 0);
+    text-align: center;    
+    margin-top: 0;
+    margin-bottom: 0;    
+    line-height: 0rem;
+}
+
+.image-section h1{
+    font-family: 'DNIProBlack';
+    font-style: italic;
+    color: #000000;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    opacity: 1;
+    letter-spacing: 0px;
+    line-height: 5.5rem;
+    text-align: left;
+}
+
+.image-section p{
+    color: #000000;
+    text-align: center;
+}
+
+  
+.left-column {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    width: 100%;    
+}
+  
+.left-column img {
+    display: block;
+    width: 46rem;
+    height: 108%;
+    margin-left: 1rem;
+    
+}
+  
+.right-column {
+    margin-top: 1rem;
+    flex-basis: 50%;
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo h1 {
+    margin-top: 0;
+    color: black;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.imagen-container img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    margin: 0 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+/* Estilizado del footer */
 
 footer{
     background-color: #000000;
@@ -50,5 +177,6 @@ footer p {
     margin: 0.3rem;
     font-weight: bold;
     font-style: italic;
+    font-family: 'DNIPro';
 }
   
