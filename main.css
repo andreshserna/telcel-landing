@@ -6,6 +6,7 @@
 body{
     background-color: #000;
     width: 100%;
+    margin-right: 0;
 }
 
 @font-face {
@@ -165,8 +166,10 @@ button{
 }
 
 @media (max-width: 768px) {
-  .left-column {
-    display: none;
+  
+  .image-section{
+    display: block;
+    margin-left: 0;
   }
 
   .right-column{
