@@ -45,14 +45,6 @@ header div{
     background-color: rgba(255, 255, 255, 0.2); /* Fondo transparente para la imagen */
 }
 
-.table-section{
-    width: auto;
-    height: auto;
-    background-image: url("/images/section2/fondo2.png");    
-    background-size: cover;
-    background-position: center;
-
-}
 
 .image-section h2{
     font-family: 'Hearts';
@@ -174,57 +166,66 @@ button{
 
 /* Para la tabla */
 
+.table-section{
+  width: 100%;
+  height: auto;
+  background-image: url("./images/section2/fondo2.png");    
+  background-size: cover;
+  background-position: center;
+
+}
+
+
   
-  .table-section {
+.table-section {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 4rem;
     padding: 5rem 0;
     max-width: 1240px;
     margin: auto;
-  }
+}
   
-  .bg-left {
+.bg-left {
     background-image: url(./images/section2/Fondo\ tabla.png);
     background-size: 100% 430px;
-    background-repeat: no-repeat;
-    
-  }
+    background-repeat: no-repeat;    
+}
   
-  .table-container {
+.table-container {
     width: 100%;
     height: 430px;
-  }
+ }
   
-  .table-container > header {
+.table-container > header {
     margin-bottom: 2rem;
-  }
+}
   
-  .table-container img {
+.table-container img {
     width: 180px;
     display: block;
     margin: auto;
-  }
+}
   
-  table {
+table {
     width: 80%;
     margin: auto;
     border-collapse: collapse;
-  }
+}
   
-  table td {
+table td {
     padding: 0.5rem;
     font-family: 'DNIProBlack';
     color: #fff;
-  }
+}
   
-  table td:nth-child(2) {
+table td:nth-child(2) {
     text-align: right;
-  }
+}
   
-  table tr {
+table tr {
     border-bottom: 1px solid #047;
-  }
+}
   
 
 /* Fin Tabla */
