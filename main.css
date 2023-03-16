@@ -173,11 +173,7 @@ button{
 
 
 /* Para la tabla */
-body {
-    min-height: 100vh;
-    background: linear-gradient(95deg, #023, #07a);
-    color: #fff;
-  }
+
   
   .table-section {
     display: grid;
@@ -189,7 +185,7 @@ body {
   }
   
   .bg-left {
-    background-image: url(https://i.postimg.cc/hfZDShpL/Fondo-tabla.png);
+    background-image: url(./images/section2/Fondo\ tabla.png);
     background-size: 100% 430px;
     background-repeat: no-repeat;
   }
@@ -217,6 +213,8 @@ body {
   
   table td {
     padding: 0.5rem;
+    font-family: 'DNIProBlack';
+    color: #fff;
   }
   
   table td:nth-child(2) {
